@@ -1,0 +1,231 @@
+<!-- Add New -->
+<div class="modal fade" id="add" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <center><h4 class="modal-title" id="myModalLabel">Add New</h4></center>
+            </div>
+            <div class="modal-body">
+			<div class="container-fluid">
+			<form id="addForm">
+
+
+
+
+				<div class="row form-group">
+					<div class="col-sm-2">
+						<label class="control-label" style="position:relative; top:7px;">sid:</label>
+					</div>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" name="sid"  id="add_sid" required>
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-sm-2">
+						<label class="control-label" style="position:relative; top:7px;">email:</label>
+					</div>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" name="email"  id="add_email" required>
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-sm-2">
+						<label class="control-label" style="position:relative; top:7px;">firstName:</label>
+					</div>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" name="firstName"  id="add_firstName" required>
+					</div>
+				</div>
+				<div class="row form-group">
+					<div class="col-sm-2">
+						<label class="control-label" style="position:relative; top:7px;">lastName:</label>
+					</div>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" name="lastName"  id="add_lastName" required>
+					</div>
+				</div>
+				<div class="row form-group">
+					<div class="col-sm-2">
+						<label class="control-label" style="position:relative; top:7px;">dateOfBirth:</label>
+					</div>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" name="dateOfBirth"  id="add_dateOfBirth" required>
+					</div>
+				</div>
+				<div class="row form-group">
+					<div class="col-sm-2">
+						<label class="control-label" style="position:relative; top:7px;">center:</label>
+					</div>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" name="center"  id="add_center" required>
+					</div>
+				</div>
+				<div class="row form-group">
+					<div class="col-sm-2">
+						<label class="control-label" style="position:relative; top:7px;">semester:</label>
+					</div>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" name="semester"  id="add_semester" required>
+					</div>
+				</div>
+				<div class="row form-group">
+					<div class="col-sm-2">
+						<label class="control-label" style="position:relative; top:7px;">cgpa:</label>
+					</div>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" name="cgpa"  id="add_cgpa" required>
+					</div>
+				</div>
+
+            </div> 
+			</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+                <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-floppy-disk"></span> Save</a>
+			</form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Edit -->
+<div class="modal fade" id="edit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <center><h4 class="modal-title" id="myModalLabel">Edit Member</h4></center>
+            </div>
+            <div class="modal-body">
+			<div class="container-fluid">
+			<form id="editForm">
+				<input type="hidden" class="id" name="id"  id="edit_id">
+				
+				
+
+				<div class="row form-group">
+					<div class="col-sm-2">
+						<label class="control-label" style="position:relative; top:7px;">sid:</label>
+					</div>
+					<div class="col-sm-10">
+						<input type="text" class="form-control sid" name="sid"  id="edit_sid" required>
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-sm-2">
+						<label class="control-label" style="position:relative; top:7px;">email:</label>
+					</div>
+					<div class="col-sm-10">
+						<input type="text" class="form-control email" name="email"  id="edit_email" required>
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-sm-2">
+						<label class="control-label" style="position:relative; top:7px;">firstName:</label>
+					</div>
+					<div class="col-sm-10">
+						<input type="text" class="form-control firstName" name="firstName"  id="edit_firstName" required>
+					</div>
+				</div>
+
+				
+				<div class="row form-group">
+					<div class="col-sm-2">
+						<label class="control-label" style="position:relative; top:7px;">lastName:</label>
+					</div>
+					<div class="col-sm-10">
+						<input type="text" class="form-control lastName" name="lastName"  id="edit_lastName" required>
+					</div>
+				</div>
+
+				
+				<div class="row form-group">
+					<div class="col-sm-2">
+						<label class="control-label" style="position:relative; top:7px;">dateOfBirth:</label>
+					</div>
+					<div class="col-sm-10">
+						<input type="text" class="form-control dateOfBirth" name="dateOfBirth"  id="edit_dateOfBirth" required>
+					</div>
+				</div>
+				<div class="row form-group">
+					<div class="col-sm-2">
+						<label class="control-label" style="position:relative; top:7px;">center:</label>
+					</div>
+					<div class="col-sm-10">
+						<input type="text" class="form-control center" name="center"  id="edit_center" required>
+					</div>
+				</div>
+				<div class="row form-group">
+					<div class="col-sm-2">
+						<label class="control-label" style="position:relative; top:7px;">semester:</label>
+					</div>
+					<div class="col-sm-10">
+						<input type="text" class="form-control semester" name="semester"  id="edit_semester" required>
+					</div>
+				</div>
+				<div class="row form-group">
+					<div class="col-sm-2">
+						<label class="control-label" style="position:relative; top:7px;">cgpa:</label>
+					</div>
+					<div class="col-sm-10">
+						<input type="text" class="form-control cgpa" name="cgpa"  id="edit_cgpa" required>
+					</div>
+				</div>
+            </div> 
+			</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+                <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-check"></span> Update</a>
+			</form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Delete -->
+<div class="modal fade" id="delete" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <center><h4 class="modal-title" id="myModalLabel">Delete Member</h4></center>
+            </div>
+            <div class="modal-body">	
+            	<p class="text-center">Are you sure you want to Delete</p>
+				<h2 class="text-center fullname"></h2>
+			</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+                <button type="button" class="btn btn-danger id"><span class="glyphicon glyphicon-trash"></span> Yes</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Delete -->
+<div class="modal fade" id="deleteEmail" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <center><h4 class="modal-title" id="myModalLabel">Delete Member</h4></center>
+            </div>
+            <div class="modal-body">	
+            	<p class="text-center">Are you sure you want to Delete</p>
+				<h2 class="text-center fullname"></h2>
+			</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+                <button type="button" class="btn btn-danger id " id="delByEmail"><span class="glyphicon glyphicon-trash"></span> Yes</button>
+            </div>
+
+        </div>
+    </div>
+</div>
